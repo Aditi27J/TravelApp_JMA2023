@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".delhi"
+    android:background="@drawable/tindiagate">
+
+
+    <TextView
+        android:id="@+id/textView3"
+        android:layout_width="247dp"
+        android:layout_height="137dp"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginEnd="85dp"
+        android:layout_marginBottom="546dp"
+        android:fontFamily="sans-serif-smallcaps"
+        android:text="EXPLORE DELHI"
+        android:textAlignment="center"
+        android:textColor="@color/black"
+        android:textSize="48sp"
+        android:textStyle="bold" />
+
+    <Button
+        android:id="@+id/button8"
+        android:layout_width="339dp"
+        android:layout_height="75dp"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginEnd="35dp"
+        android:layout_marginBottom="375dp"
+        android:text="5 days/ 4 nights"
+        android:textSize="34sp" />
+
+    <Button
+        android:id="@+id/button9"
+        android:layout_width="339dp"
+        android:layout_height="75dp"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginEnd="36dp"
+        android:layout_marginBottom="270dp"
+        android:text="3 days/ 2 nights"
+
+        android:textSize="34sp" />
+
+    <Button
+        android:id="@+id/button10"
+        android:layout_width="339dp"
+        android:layout_height="75dp"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginEnd="39dp"
+        android:layout_marginBottom="159dp"
+        android:text="7 days/ 6 nights"
+        android:textSize="34sp" />
+
+    <EditText
+        android:id="@+id/editTextText"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginEnd="65dp"
+        android:layout_marginBottom="465dp"
+        android:ems="10"
+        android:hint="Enter the no. of people"
+        android:inputType="text"
+        android:textColorHint="#0E0E0E"
+        android:textSize="24sp" />
+
+    <Button
+        android:id="@+id/packages"
+        android:layout_width="173dp"
+        android:layout_height="72dp"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginEnd="121dp"
+        android:layout_marginBottom="38dp"
+        android:text="More Packages"
+        android:onClick="more_pack"
+        android:textSize="20sp" />
+
+</RelativeLayout>

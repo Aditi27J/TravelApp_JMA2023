@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".europe"
+    android:background="@drawable/europe">
+
+    <TextView
+        android:id="@+id/textView4"
+        android:layout_width="279dp"
+        android:layout_height="56dp"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginEnd="66dp"
+        android:layout_marginBottom="644dp"
+        android:fontFamily="sans-serif-smallcaps"
+        android:text="EXPLORE EUROPE"
+        android:textAlignment="center"
+        android:textColor="@color/black"
+        android:textSize="34sp"
+        android:textStyle="bold" />
+
+    <EditText
+        android:id="@+id/editTextinputppl"
+        android:layout_width="310dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginEnd="43dp"
+        android:layout_marginBottom="489dp"
+        android:ems="10"
+        android:hint="Enter the number of people"
+        android:inputType="text"
+        android:textAlignment="center"
+        android:textColor="@color/black"
+        android:textColorHint="@color/black"
+        android:textSize="24sp" />
+
+    <Button
+        android:id="@+id/europe12"
+        android:layout_width="380dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginEnd="15dp"
+        android:layout_marginBottom="318dp"
+        android:text="12 Days / 11 nights"
+        android:textSize="24sp" />
+
+    <Button
+        android:id="@+id/europe10"
+        android:layout_width="387dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginEnd="14dp"
+        android:layout_marginBottom="227dp"
+        android:text="10 Days / 9 nights"
+        android:textSize="24sp" />
+
+    <Button
+        android:id="@+id/europemore"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginEnd="99dp"
+        android:layout_marginBottom="114dp"
+        android:text="More Packages"
+        android:onClick="europe_more"
+        android:textSize="24sp" />
+</RelativeLayout>

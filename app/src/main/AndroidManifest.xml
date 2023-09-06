@@ -1,0 +1,141 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools">
+
+    <application
+        android:allowBackup="true"
+        android:dataExtractionRules="@xml/data_extraction_rules"
+        android:fullBackupContent="@xml/backup_rules"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.Travelapp"
+        tools:targetApi="31">
+        <activity
+            android:name=".currency"
+            android:exported="false" />
+        <activity
+            android:name=".singapore65"
+            android:exported="false" />
+        <activity
+            android:name=".singapore76"
+            android:exported="false" />
+        <activity
+            android:name=".singapore"
+            android:exported="false" />
+        <activity
+            android:name=".dubai54"
+            android:exported="false" />
+        <activity
+            android:name=".dubai65"
+            android:exported="false" />
+        <activity
+            android:name=".dubai"
+            android:exported="false" />
+        <activity
+            android:name=".europe10"
+            android:exported="false" />
+        <activity
+            android:name=".europe12"
+            android:exported="false" />
+        <activity
+            android:name=".europe"
+            android:exported="false" />
+        <activity
+            android:name=".abroadexplore"
+            android:exported="false" />
+        <activity
+            android:name=".kerala43"
+            android:exported="false" />
+        <activity
+            android:name=".kerala54"
+            android:exported="false" />
+        <activity
+            android:name=".kerala"
+            android:exported="false" />
+        <activity
+            android:name=".tamil65"
+            android:exported="false" />
+        <activity
+            android:name=".tamil76"
+            android:exported="false" />
+        <activity
+            android:name=".tamilnadu"
+            android:exported="false" />
+        <activity
+            android:name=".karnataka_65"
+            android:exported="false" />
+        <activity
+            android:name=".karnataka_76"
+            android:exported="false" />
+        <activity
+            android:name=".karnataka"
+            android:exported="false" />
+        <activity
+            android:name=".southIndia"
+            android:exported="false" />
+        <activity
+            android:name=".shimla_32"
+            android:exported="false" />
+        <activity
+            android:name=".shimla_43"
+            android:exported="false" />
+        <activity
+            android:name=".Shimla"
+            android:exported="false" />
+        <activity
+            android:name=".kashmir_32"
+            android:exported="false" />
+        <activity
+            android:name=".kashmir_43"
+            android:exported="false" />
+        <activity
+            android:name=".kashmir"
+            android:exported="false" />
+        <activity
+            android:name=".leh_32"
+            android:exported="false" />
+        <activity
+            android:name=".leh_54"
+            android:exported="false" />
+        <activity
+            android:name=".lehladakh"
+            android:exported="false" />
+        <activity
+            android:name=".delhi_32"
+            android:exported="false" />
+        <activity
+            android:name=".delhi_54"
+            android:exported="false" />
+        <activity
+            android:name=".delhi"
+            android:exported="false" />
+        <activity
+            android:name=".northplaces"
+            android:exported="false" />
+        <activity
+            android:name=".MainActivity2new"
+            android:exported="false" />
+        <activity
+            android:name=".indiaexplore"
+            android:exported="false" />
+        <activity
+            android:name=".pg2_explore"
+            android:exported="false" />
+        <activity
+            android:name=".MainActivity"
+            android:exported="true">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+
+        <meta-data
+            android:name="preloaded_fonts"
+            android:resource="@array/preloaded_fonts" />
+    </application>
+
+</manifest>
